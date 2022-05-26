@@ -1,9 +1,5 @@
 .header {
   @media (max-width: 1280px) {
-    .container {
-      max-width: 1024px;
-    }
-
     .header__search {
       .header__input {
         width: 217px;
@@ -15,9 +11,6 @@
   }
 
   @media (max-width: 1024px) {
-    .container {
-      max-width: 768px;
-    }
     .header__search {
       .header__input {
         width: 160px;
@@ -33,10 +26,6 @@
   }
 
   @media (max-width: 768px) {
-    .container {
-      max-width: 576px;
-    }
-
     .header__search {
       .header__input {
         width: 200px;
@@ -49,25 +38,21 @@
   }
 
   @media (max-width: 576px) {
-    .container {
-      max-width: 320px;
-    }
-    .row {
-      flex-wrap: wrap;
-    }
-
-    .header__img {
-      margin-bottom: 30px;
+    .header__logo-img {
+      width: 65px;
+      margin-right: 10px;
     }
 
     .header__search {
-      .header__input {
-        padding-left: 0;
-        padding-bottom: 20px;
+      .header__search-img {
+        width: 17px;
       }
-    }
-    .header__menu {
-      display: block;
+
+      .header__input {
+        padding-left: 5px;
+        width: 110px;
+        font-size: 14px;
+      }
     }
   }
 }
